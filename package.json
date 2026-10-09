@@ -1,0 +1,31 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Open-ended browsing agent on Browserbase + Stagehand",
+  "scripts": {
+    "start": "tsx --env-file-if-exists=.env src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su-satoshi/sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/su-satoshi/sandbox/issues"
+  },
+  "homepage": "https://github.com/su-satoshi/sandbox#readme",
+  "dependencies": {
+    "@browserbasehq/stagehand": "^4.2.0",
+    "zod": "~4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  }
+}
